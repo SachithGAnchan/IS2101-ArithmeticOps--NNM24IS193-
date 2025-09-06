@@ -14,7 +14,6 @@ void nonRestoringDivision(int dividend, int divisor, int bits){
     int Q=dividend;     // Dividend (will hold quotient)
     int M=divisor;      // Divisor
     int n=bits;         // Number of bits
-
     // printf("Initial Values:\n");
     // printf("A="); printBinary(A,n+1); printf("\n");
     // printf("Q="); printBinary(Q,n); printf("\n");
@@ -39,7 +38,6 @@ void nonRestoringDivision(int dividend, int divisor, int bits){
         printf("After operation: A = "); printBinary(A, n+1);
         printf(", Q = "); printBinary(Q, n); printf("\n\n");
     }
-
     // Final correction if A < 0
     //restoring the multiplicand
     if (A<0) {
@@ -48,7 +46,6 @@ void nonRestoringDivision(int dividend, int divisor, int bits){
     printf("Final Quotient Q = "); printBinary(Q, n); printf(" (%d)\n", Q);
     printf("Final Remainder A = "); printBinary(A, n+1); printf(" (%d)\n", A);
 }
-
 int main(){
     int dividend,divisor,bits;
     printf("Enter Dividend: ");
