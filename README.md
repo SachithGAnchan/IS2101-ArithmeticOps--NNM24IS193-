@@ -34,3 +34,11 @@ gcc RestoringDivision.c -o RestoringDivision
 gcc Non_Restoring_Algorithm.c -o NonRestoring
 ./NonRestoring
 
+## Output of Shift-Add Multiplication
+![Shift Add Multiplication Output](images/sequential_output.png)
+
+## Output of Restoring Division
+![Restoring Division Output](Non_Restoring_Division.png)
+
+## Output of Non-Restoring Division
+![Non-Restoring Division Output](Restoring_division.png)
