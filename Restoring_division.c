@@ -21,7 +21,7 @@ void restoringDivision(int dividend, int divisor, int bitSize) {
     printf("\n\n");
 
     while (count>0){
-        printf("Step %d:\n", bitSize-count+1);
+        // printf("Step %d:\n", bitSize-count+1);
         // Left shift (A, Q)
         int combined=(A<<bitSize)|Q;
         combined<<=1;
@@ -37,11 +37,11 @@ void restoringDivision(int dividend, int divisor, int bitSize) {
             //Set Q0 = 1
             Q=Q|1;
         }
-        printf("  Result: A = ");
-        printBinary(A, bitSize);
-        printf("  Q = ");
-        printBinary(Q, bitSize);
-        printf("\n\n");
+        // printf("  Result: A = ");
+        // printBinary(A, bitSize);
+        // printf("  Q = ");
+        // printBinary(Q, bitSize);
+        // printf("\n\n");
         count--;
     }
 
